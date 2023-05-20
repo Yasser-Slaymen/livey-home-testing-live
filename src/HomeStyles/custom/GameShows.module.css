@@ -10,13 +10,13 @@
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  height: 114vh;
+  height: 116vh;
   background: linear-gradient(to right, #ff8dc8, #ffbe4b);
 }
 .GameShows_Backgroundimg {
   position: relative;
   width: 100vw;
-  height: 112vh;
+  height: 114vh;
   background-image: url(/public/backgroundImages/Group\ 32.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,8 +30,8 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 0.7em;
-  padding: 2em;
-  margin-top: 3em;
+  padding-left: 2em;
+  margin-top: .5em;
 }
 .GameShows_componentName {
   font-family: "Helvetica", Sans-serif;

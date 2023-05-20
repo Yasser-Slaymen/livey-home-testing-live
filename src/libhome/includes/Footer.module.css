@@ -65,10 +65,11 @@
   border: 2px solid #929aff;
   border-radius: 0.4em;
   color: #929aff;
-  padding: 16px 46px;
+  padding: 16px 20px;
   margin: 2em;
   width: 350px;
   height: 50px;
+  background-color: red;
 }
 .Footer_Containarbtn:hover {
   color: #ffff;
@@ -138,5 +139,7 @@
     top: 40%;
     max-width: 350px;
     width: 100%;
+    padding: 16px 46px;
+    background-color: rgb(5, 5, 224);
   }
 }
