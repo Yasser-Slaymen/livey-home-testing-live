@@ -12,7 +12,7 @@
   background-position: center;
   max-width: 45em;
   width: 100%;
-  height: 90em;
+  height: 87em;
   color: #ffff;
 }
 .Footer_Containar {
@@ -52,7 +52,6 @@
   padding: 2em;
 }
 .FooterSection_Search{
-  /* padding: 1em 0 1em 0; */
   margin-top: 0;
   margin-bottom: 37px;  
 }
@@ -68,7 +67,7 @@
   border: 2px solid #929aff;
   border-radius: 0.4em;
   color: #929aff;
-  padding: 16px 46px;
+  padding: 16px 45px;
   margin: 2em;
   width: 350px;
   height: 50px;
