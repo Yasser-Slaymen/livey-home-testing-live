@@ -51,7 +51,7 @@
   padding: 2em;
 }
 .FooterSection_Search {
-  padding: 1.5em;
+  padding: 1em 0 1em 0;
 }
 .Footer_Containarbtn {
   text-decoration: none;
@@ -131,6 +131,7 @@
     position: absolute;
     top: 19%;
     left: 50%;
+    padding: unset;
   }
   .Footer_Containarbtn {
     position: absolute;
