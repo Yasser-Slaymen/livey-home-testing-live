@@ -1,9 +1,9 @@
 .Footer_Section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  /* gap: 1.5em; */
+  gap: 1.5em;
   padding: 2em;
   background-image: url(../../images/bgheader-scaled.jpg);
   background-size: cover;
@@ -65,7 +65,7 @@
   border: 2px solid #929aff;
   border-radius: 0.4em;
   color: #929aff;
-  padding: 16px 30px;
+  padding: 16px 40px;
   margin: 2em;
   width: 350px;
   height: 50px;
