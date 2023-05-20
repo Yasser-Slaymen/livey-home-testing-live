@@ -1,7 +1,7 @@
 .Footer_Section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1.5em;
   padding: 2em;
@@ -18,10 +18,11 @@
 .Footer_Containar {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 2.5em;
-  height: 100vh;
+  height: 70em;
+  margin-top: 1em;
 }
 
 .FooterSection_itemsListe {
@@ -50,8 +51,10 @@
 .Footer_LogoComponent {
   padding: 2em;
 }
-.FooterSection_Search {
-  padding: 1em 0 1em 0;
+.FooterSection_Search{
+  /* padding: 1em 0 1em 0; */
+  margin-top: 0;
+  margin-bottom: 37px;  
 }
 .Footer_Containarbtn {
   text-decoration: none;
@@ -65,7 +68,7 @@
   border: 2px solid #929aff;
   border-radius: 0.4em;
   color: #929aff;
-  padding: 16px 40px;
+  padding: 16px 45px;
   margin: 2em;
   width: 350px;
   height: 50px;

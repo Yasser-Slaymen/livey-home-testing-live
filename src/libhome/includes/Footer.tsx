@@ -46,6 +46,7 @@ export default function Footer() {
         <article className={styles.FooterSection_Search}>
           <SearchGoogle />
         </article>
+
         <ul className={styles.FooterSection_itemsListe}>
           {dataItem.myReightList?.map((item) => (
             <li key={item.name}>
