@@ -171,12 +171,12 @@
 }
 @media (min-width: 91em) {
   .GameShows_Cotainer {
-    height: 93.5vh;
+    height: 91.5vh;
   }
   .GameShows_Backgroundimg {
     height: 96vh;
     background-image: url(/public/backgroundImages/Group\ 28.webp);
-    background-size: 120%;
+    background-size: 124%;
     background-position: calc(59% + 0px);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -216,7 +216,7 @@
     height: 91vh;
   }
   .GameShows_Backgroundimg {
-    background-size: 120%;
+    background-size: 130%;
     background-position: calc(40% + 0px);
   }
   /* content */

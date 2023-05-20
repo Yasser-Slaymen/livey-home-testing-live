@@ -154,14 +154,14 @@
 @media (min-width: 91em) {
   .LiveShoppingHome_Cotainer {
     width: 94vw;
-    height: 99vh;
+    height: 97vh;
   }
   .LiveShoppingHome_Backgroundimg {
     position: relative;
     height: 96vh;
-    background-image: url(/public//backgroundImages/Group\ 12.png);
+    background-image: url(/public/backgroundImages/Group\ 12.png);
     background-repeat: no-repeat;
-    background-size: 115%;
+    background-size: 121%;
     background-position: calc(85% + 0px);
     object-fit: cover;
     border-bottom-left-radius: 15px;
@@ -189,12 +189,14 @@
 @media (min-width: 120em) {
   .LiveShoppingHome_Cotainer {
     width: 94vw;
-    height: 98vh;
+    height: 92vh;
   }
   .LiveShoppingHome_Backgroundimg {
     position: relative;
+    /* height: 96; */
     background-size: 120%;
-    background-position: calc(30% + 0px);
+    background-position: bottom;
+    /* background-position: calc(30% + 0px); */
   }
   /* content */
   .LiveShoppingHome_Content {
