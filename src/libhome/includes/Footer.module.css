@@ -142,7 +142,58 @@
     top: 40%;
     max-width: 350px;
     width: 100%;
-    padding: 16px 46px;
+    padding: 16px 45px;
     background-color: blue;
+  }
+}
+@media (min-width: 70em) {
+  .Footer_Section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: unset;
+  }
+  .Footer_Containar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2em;
+    width: 1020px;
+
+    height: auto;
+    margin-top: 2%;
+  }
+  .Footer_LogoComponent {
+    position: absolute;
+    top: -7%;
+    left: 40%;
+  }
+  .FooterSection_itemsListe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.3em;
+    list-style: none;
+  }
+  .FooterSection_Search {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    padding: unset;
+  }
+  .Footer_Containarbtn {
+    position: absolute;
+    top: 40%;
+    max-width: 350px;
+    width: 100%;
+    padding: 16px 46px;
+    background-color: rgb(5, 237, 13);
   }
 }
