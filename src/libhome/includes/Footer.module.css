@@ -51,9 +51,9 @@
 .Footer_LogoComponent {
   padding: 2em;
 }
-.FooterSection_Search{
+.FooterSection_Search {
   margin-top: 0;
-  margin-bottom: 37px;  
+  margin-bottom: 37px;
 }
 .Footer_Containarbtn {
   text-decoration: none;
@@ -71,8 +71,6 @@
   margin: 2em;
   width: 350px;
   height: 50px;
-  background-color: red;
-
 }
 .Footer_Containarbtn:hover {
   color: #ffff;
@@ -143,7 +141,6 @@
     max-width: 350px;
     width: 100%;
     padding: 16px 45.6px;
-    background-color: blue;
   }
 }
 @media (min-width: 70em) {
@@ -193,7 +190,6 @@
     top: 40%;
     max-width: 350px;
     width: 100%;
-    padding: 16px 45.5px;
-    background-color: rgb(5, 237, 13);
+    padding: 16px 45.6px;
   }
 }
