@@ -80,6 +80,7 @@
   font-family: "Raleway", sans-serif;
   text-align: start;
 }
+
 li:nth-child(1) h3 {
   background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
   background-clip: text;
@@ -156,6 +157,7 @@ li:nth-child(7) h3 {
 .Slick_links:hover .Slick_content {
   transform: scale(1.04);
 }
+
 @media (min-width: 45em) {
   .Slick_content {
     position: absolute;
@@ -171,6 +173,6 @@ li:nth-child(7) h3 {
 @media (min-width: 120em) {
   .Slick_content {
     position: absolute;
-    top: 4vw;
+    top: 5.5vw;
   }
 }

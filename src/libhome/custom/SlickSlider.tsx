@@ -15,9 +15,11 @@ interface DataType {
     link: string;
     img: string;
   }[];
+
 }
 const dataItem: DataType = dataHome[2];
 export default function SlickSlider() {
+  console.log(dataItem)
   const settings = {
     dots: true,
     infinite: true,
@@ -76,13 +78,10 @@ export default function SlickSlider() {
         slidesToScroll: 1,
       },
     },
-   
   ];
-
   return (
     <section className={styles.SlickContainar} key={dataItem.id}>
       <p>{dataItem.componentName}</p>
-
       <Slider
         {...settings}
         // className={styles.Slick_carouselSlide}
@@ -90,20 +89,20 @@ export default function SlickSlider() {
         responsive={responsiveSettings}
       >
         {dataItem.slickTrack?.map((item) => (
+          
           <section key={item.label}>
             <a className={styles.Slick_links} href={item.link}>
               <img src={item.img} alt="slick slider" />
-
               <li className={styles.Slick_content}>
                 <span>
-                  <h3>{item.title}</h3>
+                  <h3 className={styles.h3Styles }>{item.title}</h3>
                   <img
                     className={styles.Slick_icon}
                     src={arrow_rightHome}
                     alt="icone"
                   />
                 </span>
-                <p>{item.label}</p>
+                <p>{item?.label}</p>
               </li>
             </a>
           </section>

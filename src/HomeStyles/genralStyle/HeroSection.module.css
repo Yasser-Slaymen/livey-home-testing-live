@@ -12,8 +12,7 @@
       var(--e-global-color-b43d715) 0%,
       var(--e-global-color-d7c7dc1) 100%
     );
-    margin-bottom: 9em;
-
+  margin-bottom: 9em;
 }
 @media (min-width: 45em) {
   .HeroSection {
@@ -26,8 +25,13 @@
     height: 59rem;
     max-width: unset;
     margin-bottom: 11em;
-
   }
+  /* .HeroSection_MobileMenu {
+    display: none;
+  } */
+}
+
+@media (min-width: 70em) {
   .HeroSection_MobileMenu {
     display: none;
   }

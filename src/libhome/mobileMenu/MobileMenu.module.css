@@ -177,8 +177,14 @@
   background: linear-gradient(90deg, #db93ff 0%, #71e3ff 108.2%);
 }
 
-@media (min-width: 45em) {
+/* @media (min-width: 45em) {
+  .MobileMenuContianer {
+    display: none;
+  }
+} */
+@media (min-width: 70em) {
   .MobileMenuContianer {
     display: none;
   }
 }
+
