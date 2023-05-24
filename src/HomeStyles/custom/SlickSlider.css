@@ -27,3 +27,15 @@
   height: 220px;
   padding: 1em;
 }
+/* editing h3 */
+.slick-slide:nth-child(even) h3 {
+  /* background-color: red; */
+  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.slick-slide:not(:nth-child(even)) h3 {
+  background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -80,11 +80,14 @@
   font-family: "Raleway", sans-serif;
   text-align: start;
 }
-
-li:nth-child(1) h3 {
-  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
+.slick-slide h3{
+  background-color: red;
+}
+/* .slick-slid:nth-child(1) h3 {
+  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%) !important;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 li:nth-child(2) h3 {
   background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
@@ -116,7 +119,7 @@ li:nth-child(7) h3 {
   background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .Slick_icon {
   display: none;

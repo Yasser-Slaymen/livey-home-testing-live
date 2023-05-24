@@ -89,7 +89,6 @@ export default function SlickSlider() {
         responsive={responsiveSettings}
       >
         {dataItem.slickTrack?.map((item) => (
-          
           <section key={item.label}>
             <a className={styles.Slick_links} href={item.link}>
               <img src={item.img} alt="slick slider" />
