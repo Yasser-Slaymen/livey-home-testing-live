@@ -403,5 +403,11 @@
     "icon7": "/showcasesIcons/iconBetting@2x.png",
     "icon8": "/showcasesIcons/iconSports@2x.png",
     "icon9": "/showcasesIcons/iconLearningDev@2x.png"
+  },
+  {
+    "id": 19,
+    "componentName": "selutions",
+    "title": "Ready for engagement?",
+    "description": "See how the Livery Live Method improves your live stream results:"
   }
 ]

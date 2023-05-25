@@ -10,8 +10,8 @@
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  height: 110vh;
-  background: linear-gradient(to right, #db93ff, #71e3ff);
+  height: 110vh; 
+ background: linear-gradient(to right, #db93ff, #71e3ff);
 }
 .LiveLearning_Backgroundimg {
   position: relative;
@@ -52,6 +52,7 @@
   justify-content: flex-start;
   gap: 0.7em;
   padding: 2em;
+  z-index: 999999;
 }
 .LiveLearning_componentName {
   font-family: "Helvetica", Sans-serif;
@@ -73,6 +74,9 @@
   background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.LiveLearning_DscriptionBtn{
+  z-index: 99999999;
 }
 .LiveLearning_Dscription {
   font-family: "Raleway", Sans-serif;
@@ -105,7 +109,7 @@
   }
   .LiveLearning_Backgroundimg {
     position: relative;
-    height: 73vh;
+    height: 75vh;
     background-image: url(/public/backgroundImages/Group\ 11.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,6 +219,8 @@
   }
   .LiveLearning_Dscription {
     width: 400px;
+    z-index: 999;
+
   }
   
 }

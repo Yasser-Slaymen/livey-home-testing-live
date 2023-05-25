@@ -1,3 +1,10 @@
+:root {
+  --vh: 1vh;
+}
+
+/* .selector {
+  height: calc(709px * 100 / var(--vh));
+} */
 .LiveShoppingHome {
   display: flex;
   flex-direction: column;
@@ -6,18 +13,11 @@
   max-width: 45em;
   margin-bottom: 2em;
 }
-.LiveShoppingHome_Cotainer {
-  display: flex;
-  align-items: flex-end;
-  width: 100vw;
-  height: 114vh;
-  background: linear-gradient(to right, #ff8dc8, #ffbe4b);
-}
 .LiveShoppingHome_Backgroundimg {
   position: relative;
   width: 100vw;
-  height: 112vh;
-  background-image: url(/public/backgroundImages/Group\ 20.webp);
+  height: 114vh;
+  background-image: url(/public/backgroundImages/Group\ 35.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(5% + 0px);
@@ -64,6 +64,7 @@
   -webkit-text-fill-color: transparent;
   margin-bottom: 2em;
 }
+/* ipad */
 @media (min-width: 45em) {
   .LiveShoppingHome {
     display: flex;
@@ -72,27 +73,21 @@
     align-items: center;
     max-width: unset;
     margin-bottom: 4em;
+    background-color: red;
   }
-  .LiveShoppingHome_Cotainer {
-    display: flex;
-    align-items: flex-end;
-    width: 94vw;
-    height: 97vh;
-    border-radius: 15px;
-    margin: 0 auto;
-    background: linear-gradient(to right, #ff8dc8, #ffbe4b);
-  }
+
   .LiveShoppingHome_Backgroundimg {
     position: relative;
-    height: 96vh;
-    background-image: url(/public//backgroundImages/Group\ 12.png);
+    width: 94vw;
+    /* height: 96vh; */
+    height: calc(870px * 100 / var(--vh));
+    /* height: 870px; */
+    background-image: url(/public//backgroundImages/Group\ 38.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: calc(27% + 0px);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
   }
-
   /* content */
   .LiveShoppingHome_Content {
     display: flex;
@@ -124,20 +119,21 @@
   }
 }
 @media (min-width: 75em) {
-  .LiveShoppingHome_Cotainer {
-    height: 97vh;
+  .LiveShoppingHome {
+    background-color: blue;
   }
   .LiveShoppingHome_Backgroundimg {
-    background-size: cover;
-    background-position: center;
+    height:709px ;
+    /* height: calc(709px * 100 / var(--vh)); */
+    background-position: calc(57% + 0px);
   }
-  /* content */
+
   .LiveShoppingHome_Content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    margin-top: 15em;
+    margin-top: 13em;
     height: 55vh;
     width: 100%;
   }
@@ -150,31 +146,27 @@
     width: 400px;
   }
 }
-/* laptop */
+
 @media (min-width: 91em) {
-  .LiveShoppingHome_Cotainer {
-    width: 94vw;
-    height: 97vh;
+  .LiveShoppingHome {
+    background-color: rgb(1, 242, 41);
   }
   .LiveShoppingHome_Backgroundimg {
     position: relative;
-    height: 96vh;
-    background-image: url(/public/backgroundImages/Group\ 12.png);
-    background-repeat: no-repeat;
-    background-size: 121%;
-    background-position: calc(85% + 0px);
-    object-fit: cover;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    height: 670px;
+    background-size: cover;
+    background-position: calc(74% + 0px);
+    /* background-position-x: 0px;
+    background-position-y: 0; */
   }
-  /* content */
+ 
   .LiveShoppingHome_Content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    /* gap: 0.2em; */
-    width: 90%;
+  
+    width: 87%;
     height: 30vh;
   }
   .LiveShoppingHome_componentName {
@@ -187,21 +179,21 @@
   }
 }
 @media (min-width: 120em) {
-  .LiveShoppingHome_Cotainer {
-    width: 94vw;
-    height: 92vh;
+
+  .LiveShoppingHome {
+    background-color: rgb(227, 119, 5);
   }
   .LiveShoppingHome_Backgroundimg {
     position: relative;
-    /* height: 96; */
-    background-size: 120%;
-    background-position: bottom;
-    /* background-position: calc(30% + 0px); */
+    height: 670px;
+    background-size: cover;
+    background-position: calc(70% + 0px);
+    background-position-x: 0px;
+    background-position-y: 0;
   }
-  /* content */
   .LiveShoppingHome_Content {
-    margin-top: 19em;
+    margin-top: 7.5em;
     height: 55vh;
-    width: 87%;
+    width: 83%;
   }
 }

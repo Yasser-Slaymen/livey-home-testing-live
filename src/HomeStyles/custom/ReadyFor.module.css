@@ -1,0 +1,40 @@
+.ReadyFor_Section {
+  display: grid;
+  place-items: center;
+  padding: 40px;
+}
+.ReadyFor_ComponentName {
+  color: #18162d80;
+  font-family: "Helvetica", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2.06em;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.ReadyFor_title {
+  font-size: 26px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #18162d;
+}
+.ReadyFor_description {
+  font-size: 15px;
+  font-family: "Raleway", Sans-serif;
+  line-height: 2em;
+  margin-top: 10px;
+  /* letter-spacing: 1.4px; */
+  text-align: center;
+  color: #18162d;
+}
+
+@media (min-width: 45em) {
+    .ReadyFor_title {
+        font-size: 40px;
+        ;
+      }  
+}
