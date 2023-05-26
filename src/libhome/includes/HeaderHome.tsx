@@ -29,7 +29,7 @@ export default function HeaderHome() {
         <ul className={styles.items_liste}>
           {dataItem.interactiveData?.map((item) => (
             <li className={stylehome.items_listeFirstHome} key={item.label}>
-              <a href={item.link}>{item.label}</a>
+              <a className={stylehome.items_listeFirstHome} href={item.link}>{item.label}</a>
             </li>
           ))}
           <li>

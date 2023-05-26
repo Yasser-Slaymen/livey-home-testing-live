@@ -31,7 +31,7 @@ export default function QuiklinksSlider() {
         slidesToScroll: 1,
       },
     },
-   
+
     {
       breakpoint: 1300,
       settings: {
@@ -57,8 +57,7 @@ export default function QuiklinksSlider() {
         className={styles.Quiklinks_SlideContainarSlide}
         responsive={responsiveSettings}
       >
-    
- {dataItem.cards?.map((item) => (
+        {dataItem.cards?.map((item) => (
           <section key={item.label}>
             <a className={styles.Quiklinks_imgContainar} href={item.link}>
               <img src={item.img} alt="slideshow" />
@@ -75,7 +74,6 @@ export default function QuiklinksSlider() {
             </a>
           </section>
         ))}
-       
       </Slider>
     </section>
   );

@@ -34,17 +34,18 @@
     width: 100%;
     gap: 2em;
   }
-  .items_listeFirst a {
+/* 
+  .items_listeFirstHome a {
     font-family: "AvenirNext", Sans-serif;
-    font-size: 14.5px;
+    font-size: 15px;
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     background-color: transparent;
-    color: #18162d;
+    color: #ffff;
     text-transform: uppercase;
   }
-  .items_liste a:hover {
+  .items_listeFirstHome a:hover {
     background: linear-gradient(
       260deg,
       var(--e-global-color-b43d715) 0%,
@@ -52,8 +53,7 @@
     );
     background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
+  } */
   .nav_btn {
     display: grid;
     place-items: center;
@@ -81,32 +81,56 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
-    padding: 10px 20px;
+    margin-top: 23px;
+    /* padding: 10px 21px; */
     height: 90px;
-    margin-top: 1em;
+    height: 82.35px;
   }
   .nav_logo {
     width: 100px;
-    height: 81px;
+    height: 82.35px;
     max-width: unset;
     max-height: unset;
   }
   .items_liste {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content:center;
     align-items: center;
     list-style: none;
-    max-width: 50.5em;
+    /* max-width: 50.5em; */
+    max-width: 1039px;
     width: 100%;
     gap: 2em;
+    margin-left: 4.6em;
+    margin-top: -3px;
+    
   }
-  .items_listeFirst a {
+  /* .items_listeFirstHome a {
     font-family: "AvenirNext", Sans-serif;
-    font-size: 14.5px;
+    font-size: 15px;
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #ffff;
+    text-transform: uppercase;
+  }
+  .items_listeFirstHome a:hover {
+    background: linear-gradient(
+      260deg,
+      var(--e-global-color-b43d715) 0%,
+      var(--e-global-color-d7c7dc1) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+  /* .items_listeFirst a {
+    font-family: "AvenirNext", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
     background-color: transparent;
     color: #18162d;
     text-transform: uppercase;
@@ -119,7 +143,7 @@
     );
     background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+  } */
 
   .nav_btn {
     display: grid;
