@@ -1,5 +1,6 @@
-/* .SlickContainar {
-} */
+.SlickContainar {
+  margin-top: unset;
+}
 
 .Slick_carouselSlide {
   height: 220px;
@@ -51,7 +52,7 @@
   line-height: 2.06em;
   letter-spacing: 4px;
   text-align: center;
-  margin: 2em;
+  /* margin: 2em; */
 }
 /* links */
 
@@ -63,7 +64,7 @@
   margin: 0;
 }
 .Slick_links:hover img {
-  box-shadow: 1px 1px 30px 1px #63679f;
+  box-shadow: 1px 1px 10px 1px #63679f;
   transform: scale(1.04);
 }
 /* title styling */
@@ -80,61 +81,23 @@
   font-family: "Raleway", sans-serif;
   text-align: start;
 }
-.slick-slide h3{
+/* .slick-slide h3{
   background-color: red;
-}
-/* .slick-slid:nth-child(1) h3 {
-  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%) !important;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-}
-li:nth-child(2) h3 {
-  background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-li:nth-child(3) h3 {
-  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-li:nth-child(4) h3 {
-  background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-li:nth-child(5) h3 {
-  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-li:nth-child(6) h3 {
-  background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-li:nth-child(7) h3 {
-  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 } */
-
 .Slick_icon {
-  display: none;
-  visibility: hidden;
+  /* display: none;
+  visibility: hidden; */
   width: 20px;
   height: 15px;
   margin-top: 0.3em;
   transition: transform 0.3s ease-in-out;
 }
 
-.Slick_content:hover .Slick_icon {
+/* .Slick_links:hover .Slick_icon {
   display: unset;
   visibility: unset;
   transform: scale(1.04);
-}
+} */
 .Slick_content > p {
   line-height: 1.4;
   font-size: 15px;
@@ -162,12 +125,16 @@ li:nth-child(7) h3 {
 }
 
 @media (min-width: 45em) {
+  .SlickContainar {
+    margin-top: -2em;
+  }
   .Slick_content {
     position: absolute;
-    top: 10vw;
+    top: 6.2em;
+    margin-left: 2em;
   }
 }
-@media (min-width: 85em) {
+/* @media (min-width: 85em) {
   .Slick_content {
     position: absolute;
     top: 6.5vw;
@@ -178,4 +145,4 @@ li:nth-child(7) h3 {
     position: absolute;
     top: 5.5vw;
   }
-}
+} */

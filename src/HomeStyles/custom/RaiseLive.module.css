@@ -50,7 +50,8 @@
     position: relative;
     max-width: unset;
     width: 850px;
-    padding: 75px 0 0 30px;
+    padding: 60px;
+    /* padding: 75px 0 0 30px; */
     margin: 2.5em;
     min-height: 562px;
   }

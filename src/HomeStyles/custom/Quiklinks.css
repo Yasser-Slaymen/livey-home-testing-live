@@ -26,4 +26,12 @@
 #QuiklinksId .slick-slide {
   height: 400px;
 }
+#QuiklinksId .slick-slide p>img{
+  box-shadow: none
+}
+#QuiklinksId .slick-slide:nth-child(2) p>img{
+  position: relative;
+  left: -5.4em;
+}
+
 

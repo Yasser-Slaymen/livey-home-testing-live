@@ -36,6 +36,7 @@
   transform: scale(1.04);
 }
 .Quiklinks_hover {
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -62,6 +63,7 @@
   font-family: "Raleway", sans-serif;
   width: 210px;
   color: #ffff;
+  margin-bottom: -1em;
 }
 .Quiklinks_icon {
   width: 20px;
@@ -72,7 +74,8 @@
 }
 @media (min-width: 45em) {
   .Quiklinks {
-    margin-top: -2.6em;
+    margin-top: -2.2em;
+    /* margin-top: -2.6em; */
   }
 }
 @media (min-width: 85em) {

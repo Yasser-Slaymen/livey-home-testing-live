@@ -34,14 +34,14 @@
   gap: 2em;
 }
 .Services_Icons {
-  max-width: 162px;
-  max-height: 152px;
+  max-width: 78.33px;
+  max-height: 73.17px;
 }
 .Services_Secondtitle {
   font-size: 15px;
   font-family: "Raleway", Sans-serif;
   font-weight: 600;
-  line-height: 1.6em;
+  line-height: 1.2em;
   letter-spacing: 1.4px;
   text-align: center;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
   font-size: 15px;
   font-family: "Raleway", Sans-serif;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.7em;
   letter-spacing: 1.4px;
   text-align: center;
   color: #18162d;
@@ -61,6 +61,7 @@
 @media (min-width: 45em) {
   .Interactive_Sections {
     max-width: unset;
+    margin-top: 13em;
   }
   .Services_Content {
     margin: 1em;
@@ -68,14 +69,13 @@
   /*services  */
   .Services_Containar {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 100vw;
     margin: 0 auto;
   }
   .Interactive_Sections > h2 {
     font-size: 40px;
     font-weight: 700;
-   
   }
   .Services_Description > p {
     max-width: unset;

@@ -22,9 +22,9 @@
     justify-content: flex-start;
     gap: 3.9em;
     max-width: 45em;
-    height: 59rem;
+    height: 56rem;
     max-width: unset;
-    margin-bottom: 11em;
+    /* margin-bottom: 11em; */
   }
   /* .HeroSection_MobileMenu {
     display: none;
@@ -32,6 +32,9 @@
 }
 
 @media (min-width: 70em) {
+  .HeroSection {
+    height: 897px ;
+  }
   .HeroSection_MobileMenu {
     display: none;
   }

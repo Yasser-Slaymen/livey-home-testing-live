@@ -19,7 +19,7 @@ const dataItem: DataType = dataHome[1];
 export default function QuiklinksSlider() {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     variableWidth: true,
     speed: 700,
   };

@@ -22,7 +22,7 @@ export default function SlickSlider() {
   console.log(dataItem)
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     // centerMode: true,
     variableWidth: true,
     speed: 700,
