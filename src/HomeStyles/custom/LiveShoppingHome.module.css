@@ -73,7 +73,6 @@
     align-items: center;
     max-width: unset;
     margin-bottom: 4em;
-    background-color: red;
   }
 
   .LiveShoppingHome_Backgroundimg {
@@ -119,9 +118,8 @@
   }
 }
 @media (min-width: 75em) {
-  .LiveShoppingHome {
-    background-color: blue;
-  }
+  /* .LiveShoppingHome {
+  } */
   .LiveShoppingHome_Backgroundimg {
     height:709px ;
     /* height: calc(709px * 100 / var(--vh)); */
@@ -148,9 +146,9 @@
 }
 
 @media (min-width: 91em) {
-  .LiveShoppingHome {
+  /* .LiveShoppingHome {
     background-color: rgb(1, 242, 41);
-  }
+  } */
   .LiveShoppingHome_Backgroundimg {
     position: relative;
     height: 670px;
@@ -165,8 +163,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-  
-    width: 87%;
+    width: 90%;
     height: 30vh;
   }
   .LiveShoppingHome_componentName {
@@ -180,9 +177,9 @@
 }
 @media (min-width: 120em) {
 
-  .LiveShoppingHome {
+  /* .LiveShoppingHome {
     background-color: rgb(227, 119, 5);
-  }
+  } */
   .LiveShoppingHome_Backgroundimg {
     position: relative;
     height: 670px;

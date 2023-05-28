@@ -212,22 +212,26 @@
   }
 }
 @media (min-width: 100em) {
+  
   .GameShows_Cotainer {
-    height: 91vh;
+    height: 670px;
+    border-radius: 15px;
   }
   .GameShows_Backgroundimg {
-    background-size: 130%;
-    background-position: calc(40% + 0px);
+    background-size: 124%;
+    background-image: url(/public/backgroundImages/Group\ 46.webp);
+    background-position: left;
+    background-position-y: bottom;
   }
   /* content */
   .GameShows_Content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
     gap: 0.7em;
     /* margin-left: 22%; */
-    height: 89vh;
-    width: 95%;
+    height: 74vh;
+    width: 85%;
   }
 }

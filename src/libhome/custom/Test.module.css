@@ -1,0 +1,19 @@
+.GameShows{
+    display: grid;
+    place-items: center;
+    background-color: red;
+    height: 60vh;
+}
+.GameShows_Backgroundimg{
+    display: grid;
+    place-items: center;
+    /* background-color: blue; */
+    height: 39vh;
+    width: 50vw;
+    border-radius: 15px;
+    
+    background-image: url(../../../public/backgroundImages/Group\ 44.png);
+    background-size:120%;
+    background-repeat:no-repeat;
+    background-position-y:center;
+}
