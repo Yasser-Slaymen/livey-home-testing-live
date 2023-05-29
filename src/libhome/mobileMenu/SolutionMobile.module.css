@@ -24,7 +24,7 @@
 .SolutionMobile_Open p {
   font-family: "Raleway", Sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 /* icons */
 .CloseIcon,
@@ -37,9 +37,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 1em;
+  gap: 1.3em;
   list-style: none;
   margin-left: 2em;
+  margin-top: 1em;
   background-color: #ffff;
 }
 /* li */
@@ -50,6 +51,7 @@
   color: #18162d;
   text-decoration: none;
   background-color: transparent;
+  text-transform: unset;
 }
 .SolutionMobile_Items li > :hover {
   color: #929aff;

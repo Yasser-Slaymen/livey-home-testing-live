@@ -32,29 +32,22 @@
   background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* background-color: red; */
-  /* background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 .slick-slide:not(:nth-child(even)) h3 {
-   background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
+  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
- .slick-slide span > img {  
+.slick-slide span > img {
   box-shadow: none;
 }
-.slick-slide:nth-child(6) span > img {  
+.slick-slide:nth-child(6) span > img {
   position: relative;
-  top: .7em;
+  top: 0.7em;
   left: -3em;
   box-shadow: none;
 }
-.slick-slide:nth-child(7) span {  
- width: 242px;
+.slick-slide:nth-child(7) span {
+  width: 242px;
 }

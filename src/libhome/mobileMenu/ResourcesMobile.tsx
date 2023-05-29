@@ -29,38 +29,38 @@ export default function ResourcesMobile() {
       {isOpen && (
         <ul className={styles.SolutionMobile_Items}>
           <li>
-            <a href="https://www.liveryvideo.com/live-shopping-solution/">
-              ALL RESOURCES
+            <a href="https://www.liveryvideo.com/resources/">
+            All resources
             </a>
           </li>
           <li>
-            <a href="https://www.liveryvideo.com/livery-usp-internal-communication/">
-              INDUSTRIES PAGES
+            <a href="https://www.liveryvideo.com/blog/livery-industries/">
+            Industries
             </a>
           </li>
           <li>
-            <a href="https://www.liveryvideo.com/solution-livery-live-elearning/">
-              COMPARE LIVERY TO OTHERS
+            <a href="https://www.liveryvideo.com/blog/livery-compared/">
+            Compare Livery to others
             </a>
           </li>
           <li>
-            <a href="https://www.liveryvideo.com/gameshows-and-trivia/">
-              EXPLAINER VIDEOS
+            <a href="https://www.liveryvideo.com/blog/livery-explained/">
+            Explainer videos
             </a>
           </li>
           <li>
-            <a href="https://www.liveryvideo.com/livery-usp-sports-betting/">
-              BLOG
+            <a href="https://www.liveryvideo.com/blog/livery-articles/">
+            Blog
             </a>
           </li>
           <li>
-            <a href="https://www.liveryvideo.com/livery-usp-over-the-top/">
-              GLOSSARY
+            <a href="https://www.liveryvideo.com/glossary/">
+            Glossary
             </a>
           </li>
           <li>
-            <a href="https://www.liveryvideo.com/ultra-low-latency-video/">
-              TECHNICAL DOCUMENTATION
+            <a href="https://docs.liveryvideo.com/">
+            Technical documentation
             </a>
           </li>
         </ul>

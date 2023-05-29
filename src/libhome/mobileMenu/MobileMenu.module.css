@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 45em;
+  /* max-width: 45em; */
   width: 100%;
   background-color: transparent;
   z-index: 9999999;
@@ -139,9 +139,10 @@
 .MobileListItems li > a {
   font-family: "Raleway", Sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #18162d;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .MobileListItems li > a:hover {
   color: #929aff;
@@ -157,20 +158,24 @@
 }
 /* LOGO */
 .Mobile_logo {
-  width: 172px;
-  height: 139px;
+  width: 140px;
+  height: 126px;
+  padding: 1.5em;
 }
 /* BTN */
 .Mobile_btn {
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
   display: grid;
   place-items: center;
   text-decoration: none;
-  max-width: 294px;
+  max-width: 231px;
   width: 100%;
-  height: 58px;
+  height: 52px;
   color: #929aff;
   border: 2px solid #929aff;
-  border-radius: 0.5em;
+  border-radius: 5px;
 }
 .Mobile_btn:hover {
   color: var(--withe);

@@ -29,40 +29,47 @@ export default function SolutionMobile() {
       {isOpen && (
         <ul className={styles.SolutionMobile_Items}>
           <li>
-            <a href="https://www.liveryvideo.com/live-shopping-solution/">
-              LIVE SHOPPING
-            </a>
-          </li>
-          <li>
-            <a href="https://www.liveryvideo.com/livery-usp-internal-communication/">
-              INTERNAL COMMUNICATION
-            </a>
-          </li>
-          <li>
-            <a href="https://www.liveryvideo.com/solution-livery-live-elearning/">
-              LIVE E-LEARNING
-            </a>
-          </li>
-          <li>
-            <a href="https://www.liveryvideo.com/gameshows-and-trivia/">
-              GAMESHOWS & TRIVIA
-            </a>
-          </li>
-          <li>
-            <a href="https://www.liveryvideo.com/livery-usp-sports-betting/">
-              SPORTS & E-SPORTS
-            </a>
-          </li>
-          <li>
-            <a href="https://www.liveryvideo.com/livery-usp-over-the-top/">
-              EVENTS & HYBRID EVENTS
+            <a href="https://www.liveryvideo.com/livery-solutions/">
+            All solutions
             </a>
           </li>
           <li>
             <a href="https://www.liveryvideo.com/ultra-low-latency-video/">
-              LOW LATENCY LIVE STREAMING
+            Live streaming
             </a>
           </li>
+          
+          <li>
+            <a href="https://www.liveryvideo.com/live-shopping-solution/">
+            Live shopping
+            </a>
+          </li>
+          <li>
+            <a href="https://www.liveryvideo.com/livery-usp-internal-communication/">
+            Internal communication
+            </a>
+          </li>
+          <li>
+            <a href="https://www.liveryvideo.com/solution-livery-live-elearning/">
+            Live e-learning
+            </a>
+          </li>
+          <li>
+            <a href="https://www.liveryvideo.com/gameshows-and-trivia/">
+            Gameshows & trivia
+            </a>
+          </li>
+          <li>
+            <a href="https://www.liveryvideo.com/livery-usp-sports-betting/">
+            Sports & e-sports
+            </a>
+          </li>
+          <li>
+            <a href="https://www.liveryvideo.com/corporate-communication/">
+            Corporate communication
+            </a>
+          </li>
+          
         </ul>
       )}
     </section>

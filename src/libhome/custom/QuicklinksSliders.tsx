@@ -40,6 +40,13 @@ export default function QuiklinksSlider() {
       },
     },
     {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
       breakpoint: 720,
       settings: {
         slidesToShow: 1,

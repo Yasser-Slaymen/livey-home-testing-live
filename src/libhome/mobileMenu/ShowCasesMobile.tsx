@@ -30,60 +30,56 @@ export default function ShowCasesMobile() {
        
           <ul className={styles.SolutionMobile_Items}>
             <li>
-              <a href="https://www.liveryvideo.com/live-shopping-solution/">
-              ALL SHOWCASES
+              <a href="https://www.liveryvideo.com/showcase/">
+              All showcases
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/livery-usp-internal-communication/">
-              SPORTS & E-SPORTS
+              <a href="https://www.liveryvideo.com/showcase/#showcase-sports-en-e-sports">
+              Sports & e-Sports
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/solution-livery-live-elearning/">
-              E-COMMERCE
+              <a href="https://www.liveryvideo.com/showcase/#showcase-e-commerce">
+              E-commerce
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/gameshows-and-trivia/">
-              BUSINESS EVENTS
+              <a href="https://www.liveryvideo.com/showcase/#showcase-business-events">
+              Business events
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/livery-usp-sports-betting/">
-              LIVE ENTERTAINMENT & EVENTS
+              <a href="https://www.liveryvideo.com/showcase/#showcase-live-gameshow-en-travia">
+              Live gameshows & trivia
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/livery-usp-over-the-top/">
-              OTT & SOCIAL VIDEO
+              <a href="https://www.liveryvideo.com/showcase/#showcase-live-entertainment-en-events">
+              Live entertainment & events
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/ultra-low-latency-video/">
-              NEWS & FINANCE
+              <a href="https://www.liveryvideo.com/showcase/#showcase-ott">
+              OTT & social video
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/ultra-low-latency-video/">
-              BETTING & GAMBLING
+              <a href="https://www.liveryvideo.com/showcase/#showcase-news-en-finance">
+              News & finance
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/ultra-low-latency-video/">
-              LEARNING & DEVELOPMENT
+              <a href="https://www.liveryvideo.com/showcase/#showcase-betting-en-gambling">
+              Betting & gambling
               </a>
             </li>
             <li>
-              <a href="https://www.liveryvideo.com/ultra-low-latency-video/">
-              LIVE GAMESHOW & TRIVIA
+              <a href="https://www.liveryvideo.com/showcase/#showcase-learning-en-development">
+              Learning & development
               </a>
             </li>
-            <li>
-              <a href="https://www.liveryvideo.com/ultra-low-latency-video/">
-              LIVE GAMESHOW & TRIVIA
-              </a>
-            </li>
+        
           </ul>
         
       )}
