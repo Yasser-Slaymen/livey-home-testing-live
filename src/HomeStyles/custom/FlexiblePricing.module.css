@@ -5,7 +5,8 @@
   align-items: center;
   gap: 1em;
   max-width: 45em;
-  /* padding: 3em; */
+  margin: 7em 0 0 0;
+
 }
 .Fexible_SecondTitle {
   color: #18162d80;
@@ -24,6 +25,8 @@
   font-weight: 700;
   line-height: 1.13em;
   text-align: center;
+  padding: 0 1em 0 1em;
+
 }
 @media (min-width: 45em) {
   .Fexible_Sections {
@@ -32,6 +35,7 @@
     justify-content: center;
     align-items: center;
     max-width: unset;
+    margin: 7em 0 0 0;
   }
   .Fexible_Title {
     color: #18162d;
@@ -40,5 +44,7 @@
     font-weight: 700;
     line-height: 1.13em;
     text-align: center;
+    padding: unset;
+
   }
 }

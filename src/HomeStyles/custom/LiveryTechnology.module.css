@@ -53,10 +53,10 @@
   .LiverTechnology_Section {
     position: relative;
     max-width: unset;
-    width: 850px;
+    width: 950px;
     padding: 60px;
     /* padding: 75px 0 0 30px; */
-    margin: 7em 40px 0 0;
+    margin: 2em 40px 0 0;
     min-height: 562px;
   }
   .LiverTechnology_heading {
@@ -75,10 +75,30 @@
   .LiverTechnology_Img {
     position: absolute;
     top: -3em;
+    left: 60vw;
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 75em) {
+  .LiverTechnology_Section {
+    position: relative;
+    max-width: unset;
+    width: 850px;
+    padding: 60px;
+    /* padding: 75px 0 0 30px; */
+    margin: 7em 40px 0 0;
+    min-height: 562px;
+  }
+  .LiverTechnology_Img {
+    position: absolute;
+    top: -3em;
     left: 11em;
     width: 250px;
     height: 200px;
   }
+ 
 }
 @media (min-width: 85em) {
   .LiverTechnology_Img {

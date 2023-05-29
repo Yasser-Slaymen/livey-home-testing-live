@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 2em;
   padding: 3em;
+  background-color: #f9f9f9;
 }
 .MoveAnimations_Container h2 {
   color: #18162d;
@@ -28,7 +29,7 @@
     flex-direction: column;
     gap: 2em;
     padding: 3em;
-    margin: 2em 0 2em 0;
+    margin: 3.7em 0 3em 0;
   }
   .MoveAnimations_Container h2 {
     color: #18162d;
@@ -61,5 +62,4 @@
     height: 120px;
     padding: 1em;
   }
-
 }

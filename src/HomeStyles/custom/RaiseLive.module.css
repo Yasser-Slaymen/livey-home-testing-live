@@ -48,8 +48,8 @@
 @media (min-width: 45em) {
   .RaiseLive_Section {
     position: relative;
-    max-width: unset;
-    width: 850px;
+    max-width: 950px;
+    width:100% ;
     padding: 60px;
     /* padding: 75px 0 0 30px; */
     margin: 2.5em;
@@ -76,6 +76,18 @@
     height: 400px;
   }
 }
+@media (min-width: 75em) {
+  .RaiseLive_Section {
+    position: relative;
+    max-width: unset;
+    width: 850px;
+    padding: 60px;
+    /* padding: 75px 0 0 30px; */
+    margin: 2.5em;
+    min-height: 562px;
+  }
+}
+
 @media(min-width:100em) {
   .RaiseLive_Img {
     position: absolute;

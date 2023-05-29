@@ -41,7 +41,7 @@ export default function ShowCases() {
                   src={dataItem.icon1}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-e-commerce">
                   E-commerce
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -62,7 +62,7 @@ export default function ShowCases() {
                   src={dataItem.icon2}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-live-gameshow-en-travia">
                   Live gameshow & trivia
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -83,7 +83,7 @@ export default function ShowCases() {
                   src={dataItem.icon3}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-business-events">
                   Business events
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -108,7 +108,7 @@ export default function ShowCases() {
                   src={dataItem.icon4}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-live-entertainment-en-events">
                   Live entertainment & events
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -129,7 +129,7 @@ export default function ShowCases() {
                   src={dataItem.icon5}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-ott">
                   OTT & social video
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -150,7 +150,7 @@ export default function ShowCases() {
                   src={dataItem.icon6}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-news-en-finance">
                   News & finance
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -175,7 +175,7 @@ export default function ShowCases() {
                   src={dataItem.icon7}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-betting-en-gambling">
                   Betting & gambling
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -196,7 +196,7 @@ export default function ShowCases() {
                   src={dataItem.icon8}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-sports-en-e-sports">
                   Sports & e-Sports
                   <img
                     className={showStyles.ShowCases_ShowIconA}
@@ -217,7 +217,7 @@ export default function ShowCases() {
                   src={dataItem.icon9}
                   alt="icon"
                 />
-                <a href="/">
+                <a href="https://www.liveryvideo.com/showcase/#showcase-learning-en-development">
                   Learning & development
                   <img
                     className={showStyles.ShowCases_ShowIconA}

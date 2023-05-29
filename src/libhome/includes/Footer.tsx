@@ -69,7 +69,7 @@ export default function Footer() {
       </a>
       <section className={styles.FooterSection_copyRieght}>
         <span>COPYRIGHTS 2023</span>
-        <span>PRIVACY</span>
+        <span><a href="https://www.liveryvideo.com/privacy/">PRIVACY</a></span>
       </section>
     </footer>
   );

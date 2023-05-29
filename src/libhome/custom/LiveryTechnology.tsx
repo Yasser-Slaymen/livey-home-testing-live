@@ -24,13 +24,26 @@ export default function LiveryTechnology() {
         <p className={styles.LiverTechnology_Text}>
           Learn about our{" "}
           <span style={{ color: "#929aff" }}>
-            synchronized, ultra-low latency live video
+            <a
+              style={{ color: "#929aff", textDecoration: "none" }}
+              href="https://www.liveryvideo.com/video/"
+            >
+              {" "}
+              synchronized, ultra-low latency live video
+            </a>
           </span>{" "}
           & our incredibly engaging
-          <span style={{ color: "#929aff" }}>live interactions.</span>Scale your
-          live sessions up to hundreds, or millions of participants. Learn how
-          we deliver the most well-rounded livestream on iOS, Android and Web
-          apps.
+          <span style={{ color: "#929aff" }}>
+            <a
+              style={{ color: "#929aff", textDecoration: "none",  margin:".3em " }}
+              href="https://www.liveryvideo.com/interactivity/"
+            >
+            live interactions.
+            </a>
+          </span>
+          Scale your live sessions up to hundreds, or millions of participants.
+          Learn how we deliver the most well-rounded livestream on iOS, Android
+          and Web apps.
         </p>
       </article>
       <img

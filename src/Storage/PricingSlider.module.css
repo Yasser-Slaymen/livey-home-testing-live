@@ -1,6 +1,9 @@
 .Pricing_Slider {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  gap: 2em;
+  margin: .5em 0 3.5em 0;
+
 }
 .Pricing_Slider section {
   max-width: unset;
@@ -45,3 +48,12 @@
   background-position: center;
   background-size: contain;
 }
+@media (min-width: 45em) {
+  .Pricing_Slider {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em;
+    margin: .5em 0 3.5em 0;
+  }
+}
+

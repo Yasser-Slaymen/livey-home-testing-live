@@ -10,7 +10,8 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 1em;
         padding: 2% ;
-        max-width:unset ;        
+        max-width:unset ; 
+        margin-top: 2.5em;       
     }
     
 }

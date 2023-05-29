@@ -2,6 +2,7 @@
   height: 130px;
   padding-left: 1.8em;
   margin-left: 1em;
+ 
 }
 #MoveAnimationBar .slick-next:before {
   content: ".";
