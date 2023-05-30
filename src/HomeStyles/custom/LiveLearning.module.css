@@ -5,8 +5,8 @@
   align-items: center;
   max-width: 45em;
   margin-bottom: 2em;
-  background-color: red;
-  padding: 3em;
+  background-color: rgb(47, 0, 255);
+  padding: 1em;
 }
 .LiveLearning_Cotainer {
   display: flex;
@@ -27,11 +27,11 @@
 }
 .LiveLearning_PeoleImg {
   position: absolute;
-  top: 401px;
+  top: 422px;
   right: 0vw;
   width: unset;
-  height: 45vh;
-  object-fit: cover;
+  height: 360px;
+  object-position: left;
 }
 .LiveLearning_lsImg {
   position: absolute;
