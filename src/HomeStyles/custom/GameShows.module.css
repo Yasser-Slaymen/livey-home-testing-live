@@ -10,13 +10,14 @@
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  height: 805px;
+  height: 985px;
+  /* height: 805px; */
   background: linear-gradient(to right, #ff8dc8, #ffbe4b);
 }
 .GameShows_Backgroundimg {
   position: relative;
   width: 100vw;
-  height: 783px;
+  height: 974px;
   background-image: url(/public/backgroundImages/Group\ 32.webp);
   background-repeat: no-repeat;
   background-size: cover;
