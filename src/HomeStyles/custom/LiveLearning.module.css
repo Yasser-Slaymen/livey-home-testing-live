@@ -5,6 +5,8 @@
   align-items: center;
   max-width: 45em;
   margin-bottom: 2em;
+  background-color: red;
+  padding: 3em;
 }
 .LiveLearning_Cotainer {
   display: flex;
