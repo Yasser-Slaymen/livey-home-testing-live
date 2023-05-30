@@ -122,21 +122,21 @@
   
   .LiveLearning_PeoleImg {
     position: absolute;
-    top: 24.6em;
+    top: 8.9em;
     right: 0vw;
     width: 90vw;
     height: auto;
-    object-fit: cover;
+    /* object-fit: cover; */
     border-bottom-right-radius: 15px;
   }
 
   
   .LiveLearning_lsImg {
     position: absolute;
-    top:35em;
-    left:3em;
+    top: 21em;
+    left:8em;
     height: unset;
-    width: 50em;
+    width: 38em;
     object-fit: cover;
   }
   /* lB  */
