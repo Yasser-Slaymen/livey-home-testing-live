@@ -25,7 +25,7 @@
 }
 .LiveLearning_PeoleImg {
   position: absolute;
-  top: 25em;
+  top: 401px;
   right: 0vw;
   width: unset;
   height: 45vh;
@@ -33,7 +33,7 @@
 }
 .LiveLearning_lsImg {
   position: absolute;
-  top: 34.5em;
+  top: 560px;
   width: 94%;
   height: auto;
   object-fit: cover;
@@ -41,7 +41,7 @@
 }
 .LiveLearning_LdSmoke {
   position: absolute;
-  top: 29.4em;
+  top: 469px;
   width: 100%;
   height: 40%;
 }
