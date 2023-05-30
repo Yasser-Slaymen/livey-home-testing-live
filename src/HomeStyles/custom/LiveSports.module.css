@@ -10,14 +10,12 @@
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  /* height: 114vh; */
   height: 805px;
   background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
 }
 .LiveSports_Backgroundimg {
   position: relative;
   width: 100vw;
-  /* height: 112vh; */
   height: 783px;
   background-image: url(/public/backgroundImages/Group\ 50.webp);
   background-repeat: no-repeat;
