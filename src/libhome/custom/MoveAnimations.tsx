@@ -58,14 +58,15 @@ export default function MoveAnimations() {
         slidesToShow: 1,
         slidesToScroll: 1,
       },
-    },
-    {
-      breakpoint: 490,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
+    }
+    // ,
+    // {
+    //   breakpoint: 490,
+    //   settings: {
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //   },
+    // },
   ];
   return (
     <section

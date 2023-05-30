@@ -1,8 +1,6 @@
 #MoveAnimationBar .slick-slide {
   height: 130px;
-  padding-left: 1.8em;
-  margin-left: 1em;
- 
+  padding-left: 1.8em; 
 }
 #MoveAnimationBar .slick-next:before {
   content: ".";
@@ -32,4 +30,9 @@
   color: transparent;
   padding-bottom: .2em;
 }
-
+ /* #MoveAnimationBar .slick-slide {
+  height: 130px;
+  padding-left: 1.8em;
+  margin-left: 1em;
+} */
+ 
