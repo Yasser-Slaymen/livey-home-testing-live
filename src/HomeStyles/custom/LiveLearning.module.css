@@ -98,6 +98,7 @@
     align-items: center;
     max-width: unset;
     margin-bottom: 4em;
+    background-color: blue;
   }
   .LiveLearning_Cotainer {
     display: flex;
@@ -109,7 +110,7 @@
   }
   .LiveLearning_Backgroundimg {
     position: relative;
-    height: 75vh;
+    height: 73vh;
     background-image: url(/public/backgroundImages/Group\ 11.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,23 +119,45 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
+  
   .LiveLearning_PeoleImg {
     position: absolute;
-    top: 23vh;
+    top: 19em;
     right: 0vw;
-    width: 100%;
+    width: 95vw;
     height: auto;
     object-fit: cover;
     border-bottom-right-radius: 15px;
   }
+
+  
   .LiveLearning_lsImg {
     position: absolute;
-    top: 50%;
-    left:10%;
+    top:29em;
+    left:4em;
     height: unset;
-    width: 80%;
+    width: 53em;
     object-fit: cover;
   }
+  /* lB  */
+  /* .LiveLearning_PeoleImg {
+    position: absolute;
+    top: 19.5em;
+    right: 0vw;
+    width: 60em;
+    height: auto;
+    object-fit: cover;
+    border-bottom-right-radius: 15px;
+  }
+
+  .LiveLearning_lsImg {
+    position: absolute;
+    top:33em;
+    left:4em;
+    height: unset;
+    width: 50em;
+    object-fit: cover;
+  } */
   .LiveLearning_LdSmoke {
     position: absolute;
     top: 44vh;
@@ -142,6 +165,7 @@
     height: 40%;
     border-bottom-right-radius: 15px;
   }
+
   /* content */
   .LiveLearning_Content {
     display: flex;
@@ -173,6 +197,9 @@
   }
 }
 @media (min-width: 75em) {
+  .Section_LiveLearning{
+    background-color: rgb(255, 217, 0);
+  }
   .LiveLearning_Cotainer {
     width: 94vw;
     height: 80vh;
@@ -224,9 +251,102 @@
   }
   
 }
-/* laptop */
 
+@media (min-width: 88.75em) {
+  .Section_LiveLearning{
+    background-color: red;
+  }
+ 
+  .LiveLearning_PeoleImg {
+    position: absolute;
+    top: 3em;
+    right: 0vw;
+    width: unset;
+    height: 65vh;
+  }
+  .LiveLearning_lsImg {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    height: unset;
+    width: 37%;
+  }
+  .LiveLearning_LdSmoke {
+    position: absolute;
+    top: 42.2vh;
+    width: 100%;
+    height: 40%;
+  }
+  /* content */
+  .LiveLearning_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.7em;
+    margin-left: 9%;
+    height: 65vh;
+  }
+  
+  .LiveLearning_Content > h2 {
+    z-index: 999;
+    font-size: 70px;
+    width: 670px;
+  }
+}
+/* laptop */
 @media (min-width: 90em) {
+  .Section_LiveLearning{
+    background-color: rgb(4, 4, 4);
+  }
+  .LiveLearning_Cotainer {
+    width: 94vw;
+    height: 670px;
+  }
+  .LiveLearning_Backgroundimg {
+    height: 650px;
+    background-position: calc(5% + 0px);
+    background-position: left;
+  }
+  
+  
+  .LiveLearning_PeoleImg {
+    position: absolute;
+    top: 0em;
+    right: 0vw;
+    width: unset;
+    height: 40.6em;
+  }
+  .LiveLearning_lsImg {
+    position: absolute;
+    top: 37%;
+    left: 57%;
+    height: unset;
+    width: 33%;
+  }
+  .LiveLearning_LdSmoke {
+    position: absolute;
+    top: 24.4em;
+    width: 100%;
+    height: 40%;
+  }
+  /* content */
+  .LiveLearning_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.7em;
+    margin-left: 9%;
+    height: 90vh;
+  }
+
+}
+
+/* @media (min-width: 97em) {
+  .Section_LiveLearning{
+    background-color: rgb(140, 255, 0);
+  }
   .LiveLearning_Cotainer {
     width: 94vw;
     height: 670px;
@@ -256,7 +376,6 @@
     width: 100%;
     height: 40%;
   }
-  /* content */
   .LiveLearning_Content {
     display: flex;
     flex-direction: column;
@@ -272,9 +391,12 @@
     font-size: 70px;
     width: 670px;
   }
-}
+} */
 
 @media (min-width: 120em) {
+  .Section_LiveLearning{
+    background-color: rgb(42, 6, 243);
+  }
   .LiveLearning_Cotainer {
     width: 94vw;
     height: 80vh;
