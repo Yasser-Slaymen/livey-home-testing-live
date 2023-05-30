@@ -10,13 +10,15 @@
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  height: 114vh;
+  /* height: 114vh; */
+  height: 805px;
   background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
 }
 .LiveSports_Backgroundimg {
   position: relative;
   width: 100vw;
-  height: 112vh;
+  /* height: 112vh; */
+  height: 783px;
   background-image: url(/public/backgroundImages/Group\ 23.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,15 +142,13 @@
     display: flex;
     align-items: flex-end;
     width: 94vw;
-    /* height: 95vh; */
-    height: 805px;
+    height: 95vh;
     border-radius: 15px;
     margin: 0 auto;
   }
   .LiveSports_Backgroundimg {
     position: relative;
-    /* height: 97vh; */
-    height: 783px;
+    height: 97vh;
     background-image: url(/public//backgroundImages/Group\ 8.webp);
     background-repeat: no-repeat;
     background-size: cover;
