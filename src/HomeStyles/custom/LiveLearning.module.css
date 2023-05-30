@@ -104,13 +104,13 @@
     display: flex;
     align-items: flex-end;
     width: 94vw;
-    height: 75vh;
+    height: 80vh;
     border-radius: 15px;
     margin: 0 auto;
   }
   .LiveLearning_Backgroundimg {
     position: relative;
-    height: 73vh;
+    height: 77vh;
     background-image: url(/public/backgroundImages/Group\ 11.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,9 +122,9 @@
   
   .LiveLearning_PeoleImg {
     position: absolute;
-    top: 19em;
+    top: 8.9em;
     right: 0vw;
-    width: 95vw;
+    width: 90vw;
     height: auto;
     object-fit: cover;
     border-bottom-right-radius: 15px;
@@ -133,10 +133,10 @@
   
   .LiveLearning_lsImg {
     position: absolute;
-    top:29em;
-    left:4em;
+    top:21em;
+    left:3em;
     height: unset;
-    width: 53em;
+    width: 40em;
     object-fit: cover;
   }
   /* lB  */
@@ -160,7 +160,7 @@
   } */
   .LiveLearning_LdSmoke {
     position: absolute;
-    top: 44vh;
+    top: 46.1vh;
     width: 100%;
     height: 40%;
     border-bottom-right-radius: 15px;
