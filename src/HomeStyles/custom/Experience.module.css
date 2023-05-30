@@ -43,6 +43,8 @@
   height: auto;
   object-fit: cover;
   object-position: center;
+  margin-bottom: 1.5em;
+
 }
 @media (min-width: 45em) {
   .ExperienceLivery {
