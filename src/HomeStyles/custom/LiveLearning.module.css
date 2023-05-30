@@ -10,8 +10,8 @@
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  height: 110vh; 
- background: linear-gradient(to right, #db93ff, #71e3ff);
+  height: 110vh;
+  background: linear-gradient(to right, #db93ff, #71e3ff);
 }
 .LiveLearning_Backgroundimg {
   position: relative;
@@ -75,7 +75,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.LiveLearning_DscriptionBtn{
+.LiveLearning_DscriptionBtn {
   z-index: 99999999;
 }
 .LiveLearning_Dscription {
@@ -98,7 +98,6 @@
     align-items: center;
     max-width: unset;
     margin-bottom: 4em;
-    background-color: rgb(232, 72, 4);
   }
   .LiveLearning_Cotainer {
     display: flex;
@@ -119,7 +118,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
-  
+
   .LiveLearning_PeoleImg {
     position: absolute;
     top: 22.6em;
@@ -130,34 +129,14 @@
     border-bottom-right-radius: 15px;
   }
 
-  
   .LiveLearning_lsImg {
     position: absolute;
     top: 33em;
-    left:8em;
+    left: 8em;
     height: unset;
     width: 38em;
     object-fit: cover;
   }
-  /* lB  */
-  /* .LiveLearning_PeoleImg {
-    position: absolute;
-    top: 19.5em;
-    right: 0vw;
-    width: 60em;
-    height: auto;
-    object-fit: cover;
-    border-bottom-right-radius: 15px;
-  }
-
-  .LiveLearning_lsImg {
-    position: absolute;
-    top:33em;
-    left:4em;
-    height: unset;
-    width: 50em;
-    object-fit: cover;
-  } */
   .LiveLearning_LdSmoke {
     position: absolute;
     top: 47.1vh;
@@ -198,9 +177,6 @@
   }
 }
 @media (min-width: 75em) {
-  .Section_LiveLearning{
-    background-color: rgb(255, 217, 0);
-  }
   .LiveLearning_Cotainer {
     width: 94vw;
     height: 80vh;
@@ -239,7 +215,7 @@
     margin-left: 2%;
     height: 90vh;
   }
-  
+
   .LiveLearning_Content > h2 {
     z-index: 999;
     font-size: 70px;
@@ -248,16 +224,10 @@
   .LiveLearning_Dscription {
     width: 400px;
     z-index: 999;
-
   }
-  
 }
 
 @media (min-width: 88.75em) {
-  .Section_LiveLearning{
-    background-color: red;
-  }
- 
   .LiveLearning_PeoleImg {
     position: absolute;
     top: 3em;
@@ -288,7 +258,7 @@
     margin-left: 9%;
     height: 65vh;
   }
-  
+
   .LiveLearning_Content > h2 {
     z-index: 999;
     font-size: 70px;
@@ -297,9 +267,6 @@
 }
 /* laptop */
 @media (min-width: 90em) {
-  .Section_LiveLearning{
-    background-color: rgb(4, 4, 4);
-  }
   .LiveLearning_Cotainer {
     width: 94vw;
     height: 670px;
@@ -309,8 +276,7 @@
     background-position: calc(5% + 0px);
     background-position: left;
   }
-  
-  
+
   .LiveLearning_PeoleImg {
     position: absolute;
     top: 0em;
@@ -341,7 +307,6 @@
     margin-left: 9%;
     height: 90vh;
   }
-
 }
 
 /* @media (min-width: 97em) {
@@ -395,9 +360,6 @@
 } */
 
 @media (min-width: 120em) {
-  .Section_LiveLearning{
-    background-color: rgb(42, 6, 243);
-  }
   .LiveLearning_Cotainer {
     width: 94vw;
     height: 80vh;
