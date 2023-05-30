@@ -140,13 +140,15 @@
     display: flex;
     align-items: flex-end;
     width: 94vw;
-    height: 95vh;
+    /* height: 95vh; */
+    height: 805px;
     border-radius: 15px;
     margin: 0 auto;
   }
   .LiveSports_Backgroundimg {
     position: relative;
-    height: 97vh;
+    /* height: 97vh; */
+    height: 783px;
     background-image: url(/public//backgroundImages/Group\ 8.webp);
     background-repeat: no-repeat;
     background-size: cover;
