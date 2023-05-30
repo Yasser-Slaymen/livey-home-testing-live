@@ -160,10 +160,11 @@
   } */
   .LiveLearning_LdSmoke {
     position: absolute;
-    top: 46.1vh;
+    top: 47.1vh;
     width: 100%;
     height: 40%;
     border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
 
   /* content */
