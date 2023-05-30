@@ -186,7 +186,6 @@
   }
 }
 /* laptop */
-
 @media (min-width: 92em) {
   .LiveSports_Cotainer {
     display: flex;
@@ -235,7 +234,22 @@
 }
 
 @media (min-width: 100em) {
+  .LiveSports_Cotainer {
+    height: 689px;
+  }
+  .LiveSports_Backgroundimg {
+    height: 690px;
+    background-image: url(/public//backgroundImages/Group\ 49.webp);
+  }
+
   .LiveSports_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.7em;
+    width: 97%;
+    height: 77vh;
     margin-left: 20%;
   }
 }
