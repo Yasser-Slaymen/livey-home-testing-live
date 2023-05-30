@@ -98,7 +98,7 @@
     align-items: center;
     max-width: unset;
     margin-bottom: 4em;
-    background-color: blue;
+    background-color: rgb(255, 94, 0);
   }
   .LiveLearning_Cotainer {
     display: flex;
