@@ -1,10 +1,6 @@
 :root {
   --vh: 1vh;
 }
-
-/* .selector {
-  height: calc(709px * 100 / var(--vh));
-} */
 .LiveShoppingHome {
   display: flex;
   flex-direction: column;
@@ -118,22 +114,19 @@
   }
 }
 @media (min-width: 75em) {
-  /* .LiveShoppingHome {
-  } */
   .LiveShoppingHome_Backgroundimg {
     height: 709px;
-    /* height: calc(709px * 100 / var(--vh)); */
     background-position: calc(57% + 0px);
   }
 
   .LiveShoppingHome_Content {
+    position: absolute;
+    top: -11%;
+    left: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    margin-top: 13em;
-    height: 55vh;
-    width: 100%;
   }
   .LiveShoppingHome_Content > h2 {
     z-index: 999;
@@ -146,16 +139,11 @@
 }
 
 @media (min-width: 91em) {
-  /* .LiveShoppingHome {
-    background-color: rgb(1, 242, 41);
-  } */
   .LiveShoppingHome_Backgroundimg {
     position: relative;
     height: 670px;
     background-size: cover;
     background-position: calc(74% + 0px);
-    /* background-position-x: 0px;
-    background-position-y: 0; */
   }
 
   .LiveShoppingHome_Content {
@@ -163,8 +151,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    width: 90%;
-    height: 30vh;
+    position: absolute;
+    left: 52%;
   }
   .LiveShoppingHome_componentName {
     width: 550px;
@@ -184,9 +172,9 @@
     background-position-x: 0px;
     background-position-y: 0;
   }
-  .LiveShoppingHome_Content {
+  /* .LiveShoppingHome_Content {
     margin-top: 7.5em;
     height: 30em;
     width: 87%;
-  }
+  } */
 }

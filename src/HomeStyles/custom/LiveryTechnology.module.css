@@ -73,10 +73,11 @@
   }
   .LiverTechnology_Img {
     position: absolute;
-    top: -3em;
-    left: 60vw;
-    width: 250px;
-    height: 200px;
+    top: -9%;
+    right: 0%;
+    left: unset;
+    /* width: 250px; */
+    height: 40%;
   }
 }
 
@@ -90,21 +91,21 @@
     margin: 7em 40px 0 0;
     min-height: 562px;
   }
-  .LiverTechnology_Img {
+  /* .LiverTechnology_Img {
     position: absolute;
     top: -3em;
     left: 11em;
     width: 250px;
     height: 200px;
-  }
+  } */
  
 }
 @media (min-width: 85em) {
-  .LiverTechnology_Img {
+  /* .LiverTechnology_Img {
     position: absolute;
     top: -3em;
     left: 36em;
     width: 400px;
     height: 400px;
-  }
+  } */
 }

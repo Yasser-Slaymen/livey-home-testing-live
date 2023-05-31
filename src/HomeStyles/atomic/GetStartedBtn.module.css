@@ -22,7 +22,7 @@
   padding-top: 16px;
   color: #ffffff;
   margin: 0 auto;
-  /* padding: 15px 40px 15px 40px; */
+  padding: 15px 0 15px 0;
 }
 .GetStartedBtn:hover {
   background-image: linear-gradient(

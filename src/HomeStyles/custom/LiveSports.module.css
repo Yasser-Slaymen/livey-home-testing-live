@@ -73,21 +73,22 @@
     align-items: center;
     max-width: unset;
     margin-bottom: 4em;
+    background-color: blue;
   }
   .LiveSports_Cotainer {
     display: flex;
     align-items: flex-end;
     width: 94vw;
-    height: 77vh;
+    height: 100vh;
     border-radius: 15px;
     margin: 0 auto;
   }
   .LiveSports_Backgroundimg {
     position: relative;
-    height: 75vh;
+    height:98% ;
     background-image: url(/public//backgroundImages/Group\ 9.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     object-fit: cover;
     border-bottom-left-radius: 15px;
@@ -128,6 +129,7 @@
 }
 /* 11inch */
 @media (min-width: 75em) {
+  
   .LiveSports {
     display: flex;
     flex-direction: column;
@@ -135,12 +137,13 @@
     align-items: center;
     max-width: unset;
     margin-bottom: 4em;
+    background-color: red;
   }
   .LiveSports_Cotainer {
     display: flex;
     align-items: flex-end;
     width: 94vw;
-    height: 95vh;
+    height: 670px;
     border-radius: 15px;
     margin: 0 auto;
   }
