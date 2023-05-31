@@ -62,6 +62,7 @@
   .Interactive_Sections {
     max-width: unset;
     margin-top: 13em;
+   
   }
   .Services_Content {
     margin: 1em;
@@ -85,7 +86,7 @@
     margin-top: 1em;
   }
 }
-@media (min-width: 80em) {
+@media (min-width: 75em) {
   .Interactive_Sections {
     max-width: unset;
     margin-top: 13em;
@@ -96,7 +97,7 @@
   .Services_Containar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 100vw;
+    width: 74vw;
     margin: 0 auto;
   }
   .Interactive_Sections > h2 {
@@ -109,5 +110,18 @@
   .Services_Description > p {
     max-width: unset;
     width: 325px;
+  }
+}
+
+@media (min-width: 100em) {
+  .Interactive_Sections {
+    max-width: unset;
+    margin-top: 13em;
+  }
+  .Services_Containar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60vw;
+    margin: 0 auto;
   }
 }
