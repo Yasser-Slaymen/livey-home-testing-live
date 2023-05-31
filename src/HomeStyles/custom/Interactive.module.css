@@ -76,16 +76,38 @@
     font-size: 40px;
     font-weight: 700;
   }
+  .Services_Secondtitle {
+    margin: 1em;
+  }
   .Services_Description > p {
     max-width: unset;
-    width: 325px;
+    width: 230px;
+    margin-top: 1em;
   }
 }
 @media (min-width: 80em) {
+  .Interactive_Sections {
+    max-width: unset;
+    margin-top: 13em;
+  }
+  .Services_Content {
+    margin: 1em;
+  }
   .Services_Containar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1200px;
+    width: 100vw;
     margin: 0 auto;
+  }
+  .Interactive_Sections > h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .Services_Secondtitle {
+    margin: unset;
+  }
+  .Services_Description > p {
+    max-width: unset;
+    width: 325px;
   }
 }
