@@ -33,7 +33,7 @@
 }
 .LiveLearning_lsImg {
   position: absolute;
-  top: 60%;
+  top: 62%;
   left: 4%;
   max-width: 80%;
   height: auto;
@@ -129,7 +129,7 @@
 
   .LiveLearning_lsImg {
     position: absolute;
-    top: 54%;
+    top: 60%;
     left: 11%;
     height: 35%;
     width: unset;
@@ -203,8 +203,8 @@
   }
   .LiveLearning_Content {
     position: absolute;
-    top: 18%;
-    left: 15%;
+    top: 11%;
+    left: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,8 +252,8 @@
   }
   .LiveLearning_Content {
     position: absolute;
-    top: 1%1;
-    left: 15%;
+    top: 11%;
+    left: 19%;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -15,9 +15,9 @@
   height: 805px;
   background-image: url(/public/backgroundImages/Group\ 35.webp);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: calc(5% + 0px);
-  object-fit: cover;
+  background-size: 100% 100%;
+  background-position: center;
+  /* background-position: calc(5% + 0px); */
 }
 
 /* content */
@@ -172,9 +172,5 @@
     background-position-x: 0px;
     background-position-y: 0;
   }
-  /* .LiveShoppingHome_Content {
-    margin-top: 7.5em;
-    height: 30em;
-    width: 87%;
-  } */
+ 
 }
