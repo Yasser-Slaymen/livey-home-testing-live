@@ -121,7 +121,7 @@
   /* .LiveShoppingHome {
   } */
   .LiveShoppingHome_Backgroundimg {
-    height:709px ;
+    height: 709px;
     /* height: calc(709px * 100 / var(--vh)); */
     background-position: calc(57% + 0px);
   }
@@ -157,7 +157,7 @@
     /* background-position-x: 0px;
     background-position-y: 0; */
   }
- 
+
   .LiveShoppingHome_Content {
     display: flex;
     flex-direction: column;
@@ -176,10 +176,6 @@
   }
 }
 @media (min-width: 120em) {
-
-  /* .LiveShoppingHome {
-    background-color: rgb(227, 119, 5);
-  } */
   .LiveShoppingHome_Backgroundimg {
     position: relative;
     height: 670px;
@@ -190,7 +186,7 @@
   }
   .LiveShoppingHome_Content {
     margin-top: 7.5em;
-    height: 55vh;
-    width: 83%;
+    height: 30em;
+    width: 87%;
   }
 }

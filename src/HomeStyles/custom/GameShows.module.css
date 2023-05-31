@@ -127,7 +127,6 @@
   }
 }
 @media (min-width: 75em) {
-  
   .GameShows_Cotainer {
     width: 94vw;
     height: 92vh;
@@ -213,7 +212,6 @@
   }
 }
 @media (min-width: 100em) {
-  
   .GameShows_Cotainer {
     height: 670px;
     border-radius: 15px;
