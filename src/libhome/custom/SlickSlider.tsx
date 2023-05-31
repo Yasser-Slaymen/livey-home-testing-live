@@ -15,7 +15,6 @@ interface DataType {
     link: string;
     img: string;
   }[];
-
 }
 const dataItem: DataType = dataHome[2];
 export default function SlickSlider() {
@@ -57,6 +56,13 @@ export default function SlickSlider() {
       },
     },
     {
+      breakpoint: 1280,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 5,
+      },
+    },
+    {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
@@ -93,7 +99,7 @@ export default function SlickSlider() {
               <img src={item.img} alt="slick slider" />
               <li className={styles.Slick_content}>
                 <span>
-                  <h3 className={styles.h3Styles }>{item.title}</h3>
+                  <h3 className={styles.h3Styles}>{item.title}</h3>
                   <img
                     className={styles.Slick_icon}
                     src={arrow_rightHome}

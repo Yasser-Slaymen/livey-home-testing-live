@@ -39,8 +39,9 @@ export default function QuiklinksSlider() {
         slidesToScroll: 2,
       },
     },
+
     {
-      breakpoint: 900,
+      breakpoint: 920,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
