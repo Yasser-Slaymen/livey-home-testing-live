@@ -19,7 +19,6 @@ interface DataType {
 }
 const dataItem: DataType = dataHome[2];
 export default function SlickSlider() {
-  console.log(dataItem)
   const settings = {
     dots: true,
     infinite: false,

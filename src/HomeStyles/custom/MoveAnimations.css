@@ -4,14 +4,16 @@
 }
 #MoveAnimationBar .slick-next:before {
   content: ".";
-  background-image: url(../../../public/iconsMoveBar/right.png);
+  background-image: url(/public/iconsMoveBar/right.png);
+  /* background-image: url(../../../public/iconsMoveBar/right.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 #MoveAnimationBar .slick-prev:before {
   content: ".";
-  background-image: url(../../../public/iconsMoveBar/lefte.png);
+  background-image: url(/public/iconsMoveBar/lefte.png);
+  /* background-image: url(../../../public/iconsMoveBar/lefte.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
