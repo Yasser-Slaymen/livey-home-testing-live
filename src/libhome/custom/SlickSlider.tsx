@@ -25,7 +25,6 @@ export default function SlickSlider() {
     variableWidth: true,
     speed: 700,
   };
-
   const responsiveSettings = [
     {
       breakpoint: 2900,
